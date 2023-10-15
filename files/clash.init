@@ -28,7 +28,7 @@ start_clash() {
 	local api_port
 	local api_host
 
-	config_get prog "global" "prog" "/usr/bin/clash"
+	config_get prog "global" "prog" "/usr/bin/clash.meta"
 	config_get api_host "global" "api_host" "0.0.0.0"
 	config_get api_port "global" "api_port" "9090"
 
